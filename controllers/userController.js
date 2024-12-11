@@ -30,6 +30,7 @@ exports.GetUsers = async(req, res) => {
 }
 
 exports.CreateUser = async(req, res) => {
+    console.log(req);
     try {
         const { name, email, password, role, menu } = req.body;
   
